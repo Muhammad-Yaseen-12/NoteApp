@@ -9,7 +9,7 @@ import dbConnect from './src/config/db.js';
 import cookieParser from 'cookie-parser';
 const PORT = process.env.PORT || 5000;
 app.use(cors({
-    origin: "http://localhost:5173", 
+    origin: "https://note-app-xkl8.vercel.app",
     credentials: true,
 }));
 
